@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - ReadUp</title>
   <style>
     body {
@@ -20,6 +20,20 @@
     h1 {
       text-align: center;
     }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 12px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #eef3fb;
+    }
     footer {
       margin-top: 40px;
       text-align: center;
@@ -30,40 +44,122 @@
 </head>
 <body>
   <h1>Privacy Policy for ReadUp</h1>
-  <p><strong>Last updated:</strong> October 12, 2025</p>
+  <p><strong>Last updated: October 28, 2026</strong></p>
 
-  <h2>1. Information Collection and Use</h2>
-  <p>ReadUp does <strong>not collect, store, or share</strong> any personal information.</p>
+  <p>ReadUp is an English learning app for Android and iOS. This policy explains what information
+  ReadUp collects, why, who it is shared with, and the choices you have. We collect only what the
+  app needs to work, and we never sell your data.</p>
+
+  <h2>1. Using ReadUp without an account</h2>
+  <p>You can read articles, look up words, scan pages and practise speaking without signing in.
+  Your reading history, saved words, bookmarks, settings and speaking recordings are then stored
+  only on your device.</p>
+
+  <h2>2. Information we collect</h2>
+
+  <h3>When you sign in with Google</h3>
+  <p>If you sign in, we receive your <strong>name</strong> and <strong>email address</strong> from
+  your Google account and create a ReadUp account for you. We use them to identify your account and
+  to greet you in the app.</p>
+
+  <h3>Data synced to your account</h3>
+  <p>While you are signed in, the following is stored on our servers so it is backed up and
+  available on your other devices:</p>
   <ul>
-    <li>No registration or login is required.</li>
-    <li>No names, email addresses, or other identifiers are collected.</li>
-    <li>No background data or analytics are recorded.</li>
+    <li>Your profile: name, email, English level and chosen learning focus.</li>
+    <li>Bookmarks, including the article's title, text and original link.</li>
+    <li>Saved vocabulary words and the article each word came from.</li>
+    <li>Which speaking practices and challenge days you have completed.</li>
   </ul>
 
-  <h2>2. No Advertising</h2>
-  <p>ReadUp does not display ads or use any advertising SDKs or tracking tools.</p>
+  <h3>PDFs you open</h3>
+  <p>Signed-in accounts can open a limited number of different PDFs. To count them, we store a
+  <strong>fingerprint</strong> of each PDF you open: a one-way code made from the file. The
+  fingerprint cannot be turned back into the document, and the PDF itself never leaves your
+  device.</p>
 
-  <h2>3. No Subscriptions or Payments</h2>
-  <p>The app is completely free to use. There are no in-app purchases, paid features, or subscription plans.</p>
+  <h3>AI summaries</h3>
+  <p>When you ask for an AI summary, the text of that article is sent to our server, which asks
+  Google's Gemini AI to summarise it. The summary is saved so the same article can be summarised
+  again quickly. We count how many summaries each account uses, to apply fair-use limits.</p>
 
-  <h2>4. Local Processing</h2>
-  <p>All app functions (such as reading, word marking, or level selection) occur locally on your device. No data is sent to any server.</p>
+  <h3>Notifications</h3>
+  <p>If you allow notifications, we store a notification token for your device, linked to a
+  random ID created by the app, so we can send you learning reminders and important updates.
+  Daily reading reminders are scheduled on your device itself.</p>
 
-  <h2>5. Third-Party Services</h2>
-  <p>ReadUp does not use any third-party services such as Firebase, Google Analytics, or AdMob.</p>
+  <h3>App usage and crash information</h3>
+  <p>We use Firebase Analytics to understand which features are used (for example, which screens are
+  opened) and Firebase Crashlytics to receive crash and error reports, including your device model
+  and operating system version. This helps us fix problems and improve the app. We do not use this
+  information for advertising.</p>
 
-  <h2>6. Children’s Privacy</h2>
-  <p>ReadUp is suitable for users of all ages. Since no data is collected, no special handling of children's data is required.</p>
+  <h2>3. What stays on your device</h2>
+  <ul>
+    <li><strong>Speaking practice recordings</strong> are saved only on your device.</li>
+    <li><strong>Scanned pages</strong> are read on your device. Text recognition runs on your phone, and
+    the images are not uploaded.</li>
+    <li><strong>PDF files</strong> are read on your device and are never uploaded.</li>
+    <li>The <strong>Bangla dictionary</strong> is downloaded to your device and searched there.</li>
+  </ul>
 
-  <h2>7. Changes to This Policy</h2>
-  <p>If future updates require changes to how data is handled, this Privacy Policy will be updated and available within the app and on the Play Store listing.</p>
+  <h2>4. Content from other websites</h2>
+  <p>ReadUp shows news articles, podcasts and videos from their publishers. To show them, your
+  device connects directly to those websites, so they may receive your IP address like any website
+  you visit. Videos are played with YouTube's player, which is covered by
+  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
-  <h2>8. Contact Us</h2>
-  <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-  <p><strong>Email:</strong> shakircam@gmail.com</p>
+  <h2>5. Services we use</h2>
+  <table>
+    <tr><th>Service</th><th>What it does</th><th>Data it receives</th></tr>
+    <tr><td>Google Sign-In</td><td>Signing in</td><td>Your Google account details</td></tr>
+    <tr><td>Google Gemini AI</td><td>AI summaries</td>
+        <td>Article text you summarise</td></tr>
+    <tr><td>Firebase Analytics &amp; Crashlytics</td><td>Usage statistics and crash reports</td>
+        <td>App usage events, device and crash details</td></tr>
+    <tr><td>Firebase Cloud Messaging</td><td>Notifications</td><td>Notification token</td></tr>
+    <tr><td>YouTube</td><td>Playing learning videos</td><td>Video viewing</td></tr>
+  </table>
+  <p>Each of these services handles data under its own privacy policy. We share data with them only
+  so the app can work.</p>
+
+  <h2>6. What we don't do</h2>
+  <ul>
+    <li>We do not sell your personal information.</li>
+    <li>We do not show ads or use advertising SDKs.</li>
+    <li>We do not track you across other companies' apps or websites.</li>
+  </ul>
+
+  <h2>7. How long we keep data</h2>
+  <p>We keep your account data while your account exists. When you delete your account, your
+  profile, synced data, PDF fingerprints, AI summary history and notification tokens are
+  deleted. Crash and usage reports are kept by Firebase for a limited
+  period under its own retention settings.</p>
+
+  <h2>8. Deleting your account</h2>
+  <p>You can delete your account and its data at any time in the app: <strong>More → Delete account</strong>. You can also request deletion here:
+  <a href="https://shakircam.github.io/readup-privacy/account-deletion.html">Account deletion</a>.
+  Data stored only on your device is removed when you uninstall the app.</p>
+
+  <h2>9. Children's privacy</h2>
+  <p>ReadUp is intended for users aged 13 and older. We do not knowingly collect personal
+  information from children under 13. If you believe a child under 13 has created an account,
+  contact us and we will delete it.</p>
+
+  <h2>10. Security</h2>
+  <p>Data is sent over encrypted connections (HTTPS), and each account can access only its own data.
+  No method of storage or transmission is completely secure, but we work to protect your
+  information.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If we change how ReadUp handles data, we will update this page and the date at the top.</p>
+
+  <h2>12. Contact us</h2>
+  <p>If you have any questions about this Privacy Policy or your data, please contact us at:<br>
+  Email: ibk.shakir@gmail.com</p>
 
   <footer>
-    <p>© 2025 ReadUp. All rights reserved.</p>
+    &copy; 2026 ReadUp. All rights reserved.
   </footer>
 </body>
 </html>
